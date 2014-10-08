@@ -1,10 +1,10 @@
-﻿using CNBlogsMsg.Infrastructure;
+﻿using CNBlogs.Msg.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CNBlogsMsg.Domain.Repositories
+namespace CNBlogs.Msg.Domain.Repositories
 {
     /// <summary>
     /// Represents the base class for repository contexts.

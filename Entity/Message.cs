@@ -1,13 +1,8 @@
-﻿/**
-* author:xishuai
-* address:https://www.github.com/yuezhongxin/MessageManager
-**/
-
-using CNBlogsMsg.Domain.ValueObject;
-using CNBlogsMsg.Infrastructure;
+﻿using CNBlogs.Msg.Domain.ValueObject;
+using CNBlogs.Msg.Infrastructure;
 using System;
 
-namespace CNBlogsMsg.Domain.Entity
+namespace CNBlogs.Msg.Domain.Entity
 {
     public class Message : IAggregateRoot
     {

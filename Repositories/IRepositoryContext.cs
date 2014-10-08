@@ -1,8 +1,8 @@
-﻿using CNBlogsMsg.Infrastructure;
+﻿using CNBlogs.Msg.Infrastructure;
 using System;
 using System.Threading.Tasks;
 
-namespace CNBlogsMsg.Domain.Repositories
+namespace CNBlogs.Msg.Domain.Repositories
 {
     /// <summary>
     /// Represents that the implemented classes are repository contexts.

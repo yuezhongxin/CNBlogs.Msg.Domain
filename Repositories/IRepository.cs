@@ -1,11 +1,11 @@
-﻿using CNBlogsMsg.Domain.Specifications;
+﻿using CNBlogs.Msg.Domain.Specifications;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace CNBlogsMsg.Domain.Repositories
+namespace CNBlogs.Msg.Domain.Repositories
 {
     /// <summary>
     /// Represents that the implemented classes are repositories.

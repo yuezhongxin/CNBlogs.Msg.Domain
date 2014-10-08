@@ -2,7 +2,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace CNBlogsMsg.Domain.Specifications
+namespace CNBlogs.Msg.Domain.Specifications
 {
     /// <summary>
     /// Represents that the implemented classes are specifications. For more

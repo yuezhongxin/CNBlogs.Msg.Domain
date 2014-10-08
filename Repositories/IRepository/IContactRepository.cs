@@ -1,7 +1,7 @@
-﻿using CNBlogsMsg.Domain.ValueObject;
+﻿using CNBlogs.Msg.Domain.ValueObject;
 using System.Threading.Tasks;
 
-namespace CNBlogsMsg.Domain.Repositories
+namespace CNBlogs.Msg.Domain.Repositories
 {
     public interface IContactRepository
     {

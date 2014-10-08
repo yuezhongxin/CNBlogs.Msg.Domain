@@ -1,11 +1,11 @@
 ﻿
-using CNBlogsMsg.Application.DTO;
-using CNBlogsMsg.Domain.Entity;
-using CNBlogsMsg.Domain.ValueObject;
-using CNBlogsMsg.Infrastructure;
+using CNBlogs.Msg.Application.DTO;
+using CNBlogs.Msg.Domain.Entity;
+using CNBlogs.Msg.Domain.ValueObject;
+using CNBlogs.Msg.Infrastructure;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-namespace CNBlogsMsg.Domain.Repositories
+namespace CNBlogs.Msg.Domain.Repositories
 {
     public interface IMessageRepository : IRepository<Message>
     {

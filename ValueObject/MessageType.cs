@@ -1,9 +1,4 @@
-﻿/**
-* author:xishuai
-* address:https://www.github.com/yuezhongxin/MessageManager
-**/
-
-namespace CNBlogsMsg.Domain.ValueObject
+﻿namespace CNBlogs.Msg.Domain.ValueObject
 {
     public enum MessageType
     {

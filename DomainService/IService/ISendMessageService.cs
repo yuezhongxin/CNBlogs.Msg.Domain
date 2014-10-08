@@ -1,11 +1,6 @@
-﻿/**
-* author:xishuai
-* address:https://www.github.com/yuezhongxin/MessageManager
-**/
-
-using CNBlogsMsg.Domain.Entity;
+﻿using CNBlogs.Msg.Domain.Entity;
 using System.Threading.Tasks;
-namespace CNBlogsMsg.Domain.DomainService
+namespace CNBlogs.Msg.Domain.DomainService
 {
     public interface ISendMessageService
     {

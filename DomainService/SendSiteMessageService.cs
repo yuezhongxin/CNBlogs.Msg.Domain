@@ -1,20 +1,19 @@
 ﻿/**
 * author:xishuai
-* address:https://www.github.com/yuezhongxin/MessageManager
 **/
 
 using CNBlogs.Infrastructure.IoC.Contracts;
-using CNBlogsMsg.Domain.Entity;
-using CNBlogsMsg.Domain.Repositories;
-using CNBlogsMsg.Domain.ValueObject;
-using CNBlogsMsg.Infrastructure;
+using CNBlogs.Msg.Domain.Entity;
+using CNBlogs.Msg.Domain.Repositories;
+using CNBlogs.Msg.Domain.ValueObject;
+using CNBlogs.Msg.Infrastructure;
 using System.Threading.Tasks;
-namespace CNBlogsMsg.Domain.DomainService
+namespace CNBlogs.Msg.Domain.DomainService
 {
     /// <summary>
     /// SendSiteMessag 领域服务实现-站内短消息发送
     /// </summary>
-    public class ReplyMessageService : ISendMessageService
+    public class SendSiteMessageService : ISendMessageService
     {
         //ValidateSendingMessage(message)
         //ValidateSendingMessage.Validate(message)

@@ -1,5 +1,5 @@
 ﻿
-namespace CNBlogsMsg.Domain.Specifications
+namespace CNBlogs.Msg.Domain.Specifications
 {
     /// <summary>
     /// Represents the base class for composite specifications.

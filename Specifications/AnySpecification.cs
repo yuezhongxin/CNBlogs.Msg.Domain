@@ -2,7 +2,7 @@
 using System;
 using System.Linq.Expressions;
 
-namespace CNBlogsMsg.Domain.Specifications
+namespace CNBlogs.Msg.Domain.Specifications
 {
     /// <summary>
     /// Represents the specification that can be satisfied by the given object

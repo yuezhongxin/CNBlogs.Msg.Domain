@@ -1,13 +1,12 @@
 ﻿/**
 * author:xishuai
-* address:https://www.github.com/yuezhongxin/MessageManager
 **/
 
-using CNBlogsMsg.Domain.Entity;
-using CNBlogsMsg.ExternalService;
-using CNBlogsMsg.Infrastructure;
+using CNBlogs.Msg.Domain.Entity;
+using CNBlogs.Msg.ExternalService;
+using CNBlogs.Msg.Infrastructure;
 using System.Threading.Tasks;
-namespace CNBlogsMsg.Domain.DomainService
+namespace CNBlogs.Msg.Domain.DomainService
 {
     /// <summary>
     /// SendMailMessag 领域服务实现-邮件发送

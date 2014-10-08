@@ -1,4 +1,4 @@
-﻿namespace CNBlogsMsg.Domain.Repositories
+﻿namespace CNBlogs.Msg.Domain.Repositories
 {
     /// <summary>
     /// Represents the sorting style.

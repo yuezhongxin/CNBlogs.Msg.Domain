@@ -1,13 +1,8 @@
-﻿/**
-* author:xishuai
-* address:https://www.github.com/yuezhongxin/MessageManager
-**/
-
-using CNBlogsMsg.Domain.Entity;
-namespace CNBlogsMsg.Domain.DomainService
+﻿using CNBlogs.Msg.Domain.Entity;
+namespace CNBlogs.Msg.Domain.DomainService
 {
     /// <summary>
-    /// ReplyMessageService 领域服务-回复消息
+    /// SendSiteMessageService 领域服务-回复消息
     /// </summary>
     public class ReplyMessageService
     {

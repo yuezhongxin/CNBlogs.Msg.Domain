@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace CNBlogsMsg.Domain.Specifications
+namespace CNBlogs.Msg.Domain.Specifications
 {
     /// <summary>
     /// Represents the combined specification which indicates that the first specification
