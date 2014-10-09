@@ -66,7 +66,7 @@ namespace CNBlogs.Msg.Domain.Entity
         public Message ParentMessage { get; set; }
         public MessageState State { get; private set; }
         public MessageType Type { get; private set; }
-        public MessageDisplayType DisplayType { get; private set; }
+        public MessageDisplayType DisplayType { get; set; }
         public virtual Contact Sender { get; set; }
         public virtual Contact Recipient { get; set; }
 
@@ -99,7 +99,7 @@ namespace CNBlogs.Msg.Domain.Entity
             return false;
         }
 
-        public void DisposeMessage(Contact reader)
+        public void DisposeMessageByReader(Contact reader)
         {
             // to do...
             if (this.Sender.ID == reader.ID)

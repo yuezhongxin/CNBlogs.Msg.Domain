@@ -1,11 +1,8 @@
-﻿/**
-* author:xishuai
-**/
-
-using CNBlogs.Msg.Domain.Entity;
+﻿using CNBlogs.Msg.Domain.Entity;
 using CNBlogs.Msg.ExternalService;
 using CNBlogs.Msg.Infrastructure;
 using System.Threading.Tasks;
+
 namespace CNBlogs.Msg.Domain.DomainService
 {
     /// <summary>

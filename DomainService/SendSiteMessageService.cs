@@ -1,13 +1,10 @@
-﻿/**
-* author:xishuai
-**/
-
-using CNBlogs.Infrastructure.IoC.Contracts;
+﻿using CNBlogs.Infrastructure.IoC.Contracts;
 using CNBlogs.Msg.Domain.Entity;
 using CNBlogs.Msg.Domain.Repositories;
 using CNBlogs.Msg.Domain.ValueObject;
 using CNBlogs.Msg.Infrastructure;
 using System.Threading.Tasks;
+
 namespace CNBlogs.Msg.Domain.DomainService
 {
     /// <summary>
